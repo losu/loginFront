@@ -8,7 +8,7 @@
     ])
         .config(function (RestangularProvider) {
 
-            var baseUrl = "http://localhost:8888/";
+            var baseUrl = "http://localhost:8080/";
             RestangularProvider.setBaseUrl(baseUrl);
         });
 })();
