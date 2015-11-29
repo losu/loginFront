@@ -8,7 +8,7 @@
     ])
         .config(function (RestangularProvider) {
 
-            var baseUrl = "http://localhost:8080/";
+            var baseUrl = "http://loginbackend-losu.rhcloud.com/";
             RestangularProvider.setBaseUrl(baseUrl);
         });
 })();
